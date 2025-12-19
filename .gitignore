@@ -1,0 +1,15 @@
+# Ignore everything in ~ by default
+*
+
+# Keep the ignore file itself
+!.gitignore
+
+# Allow .config directory
+!.config/
+
+# Ignore everything inside .config by default
+.config/*
+
+# Allow nvim inside .config
+!.config/nvim/
+!.config/nvim/**
