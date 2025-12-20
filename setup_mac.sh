@@ -56,6 +56,7 @@ brew_formula fvm leoafarias/fvm/fvm
 
 # Apps (casks)
 brew_cask alacritty
+brew_cask alt-tab
 brew_cask orbstack
 
 # Setting config value for hammerspoon, so that config is in XDG_CONFIG_HOME
