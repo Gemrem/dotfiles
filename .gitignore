@@ -11,6 +11,9 @@
 .config/*
 
 # Allow selected .config directories
+!.config/git
+!.config/git/**
+
 !.config/nvim/
 !.config/nvim/**
 
