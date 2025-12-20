@@ -17,3 +17,9 @@
 !.config/alacritty/
 !.config/alacritty/**
 
+# Mac specific configs
+!setup_mac.sh
+
+!.config/hammerspoon/
+!.config/hammerspoon/**
+
