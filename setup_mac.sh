@@ -1,6 +1,4 @@
 #!/usr/bin/env sh
-
-#!/usr/bin/env sh
 set -eu
 
 have_cmd() { command -v "$1" >/dev/null 2>&1; }
@@ -53,11 +51,16 @@ brew_formula tree-sitter
 brew_formula rg ripgrep
 brew_formula ddev ddev/ddev/ddev
 brew_formula fvm leoafarias/fvm/fvm
+brew_formula fzf
+brew_formula zoxide
+brew_formula sesh
 
 # Apps (casks)
 brew_cask alacritty
 brew_cask alt-tab
 brew_cask orbstack
+brew_cask raycast
+brew_cask thunderbird
 
 # Setting config value for hammerspoon, so that config is in XDG_CONFIG_HOME
 defaults write org.hammerspoon.Hammerspoon MJConfigFile "~/.config/hammerspoon/init.lua"
