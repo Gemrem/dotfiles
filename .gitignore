@@ -1,8 +1,6 @@
 # Ignore everything in ~ by default
 *
-
-# Keep the ignore file itself
-!.gitignore
+# Keep the ignore file itself !.gitignore
 
 # Allow .config directory
 !.config/
@@ -26,3 +24,5 @@
 !.config/hammerspoon/
 !.config/hammerspoon/**
 
+!.config/raycast/
+!.config/raycast/**
